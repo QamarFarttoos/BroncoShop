@@ -1,1 +1,116 @@
+# 🐎 Bronco Shop
 
+## Overview
+
+Bronco Shop is a simple full‑stack web application that simulates an online university bookstore. Users can browse products, create a profile, add items to a cart, and complete a checkout process. The project was built to demonstrate core web development concepts using **Node.js**, **Express**, and basic front‑end technologies.
+
+This project was developed as part of a class assignment and focuses on functionality, routing, and server‑side handling of user input.
+
+---
+
+## Features
+
+* Browse bookstore items with images and prices
+* Shopping cart functionality
+* Checkout page in a separate tab
+* Payment method input form
+* Server logs all user actions and form inputs in the VS Code terminal
+
+---
+
+## Technologies Used
+
+* **Node.js**
+* **Express.js**
+* **EJS** (Embedded JavaScript templates)
+* **HTML / CSS / JavaScript**
+* **Multer** (for image uploads)
+
+---
+
+## Project Structure
+
+```
+bronco-shop/
+│── server.js
+│── package.json
+│── views/
+│   ├── index.ejs
+│   ├── profile.ejs
+│   ├── checkout.ejs
+│── public/
+│   ├── css/
+│   ├── many.images/
+│── uploads/
+│── node_modules/
+```
+
+---
+
+## How to Run the Project
+
+### 1. Install Dependencies
+
+Make sure Node.js is installed, then run:
+
+```bash
+npm install
+```
+
+### 2. Start the Server
+
+```bash
+node server.js
+```
+
+### 3. Open in Browser
+
+Visit:
+
+```
+http://localhost:3000
+```
+
+---
+
+## Usage
+
+1. Open the Bronco Shop homepage
+2. Browse available products
+3. Add items to the cart
+4. Proceed to checkout in a new tab
+5. Enter payment details and place order
+
+All submitted data will be displayed in the VS Code terminal for verification.
+
+---
+
+## Educational Goals
+
+* Practice building a Node.js + Express application
+* Understand routing and views using EJS
+* Handle user input and form submissions
+* Work with file uploads and server‑side logging
+
+---
+
+## Future Improvements
+
+* Implement user authentication
+* Improve UI styling and responsiveness
+* Add order confirmation and receipt generation
+
+---
+
+## Authors
+Qamar Farttoos
+James Stringham
+Bryce Younger
+**Bronco Shop Project**
+Developed by CSE and EE students as final project for a cybersecurty course.
+
+---
+
+## License
+
+This project is for educational purposes only.
