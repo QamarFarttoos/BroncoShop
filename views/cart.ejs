@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Your Cart</h1>
+    <ul>
+        <% cart.forEach(item => { %>
+            <li><%= item.name %> - $<%= item.price %></li>
+        <% }) %>
+    </ul>
+    <p>Total: $<%= cart.reduce((sum, item) => sum + item.price, 0) %></p>
+    <a href="/">Continue Shopping</a>
+    <a href="/checkout">Proceed to Checkout</a>
+</body>
+</html>
